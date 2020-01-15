@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.querySelector('button[type="submit"]')
+  document.querySelector('input[type="submit"]').addEventListener()
 });
