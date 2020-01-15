@@ -1,3 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", (click) => {
   // your code here
 });
