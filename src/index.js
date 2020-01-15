@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let item = document.getElementById("new-task-description").value
     let list = document.getElementById("list")
     
-    
+    list.appendChild
   });
 });
