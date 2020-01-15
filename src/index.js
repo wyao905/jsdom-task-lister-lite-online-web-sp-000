@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let list = document.getElementById("list");
     let newItem = document.createElement("LI");
     
+    newItem.innerHTML = item;
     list.appendChild(newItem);
   });
 });
