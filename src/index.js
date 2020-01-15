@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('input[type="submit"]').addEventListener("click", function(event) {
     event.preventDefault();
     
-    let item = document.getElementById("new-task-description").value
-    let list = document.getElementById("list")
-    let newItem = document.createElement("LI")
+    let item = document.getElementById("new-task-description").value;
+    let list = document.getElementById("list");
+    let newItem = document.createElement("LI");
     
-    list.appendChild
+    list.appendChild(newItem);
   });
 });
