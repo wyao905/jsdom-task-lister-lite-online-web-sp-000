@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('input[type="submit"]').addEventListener("click", function(event) {
     event.preventDefault();
     
-    let item = document.
+    let item = document.getElement
+    let list = document.getElementById("list")
+    
   });
 });
