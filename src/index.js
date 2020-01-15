@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     let item = document.getElementById("new-task-description").value
     let list = document.getElementById("list")
-    let newItem = 
+    let newItem = document.createElement("LI")
     
     list.appendChild
   });
